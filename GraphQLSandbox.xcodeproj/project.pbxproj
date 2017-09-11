@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		280BCF9B1F660F9B007E6DDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280BCF9A1F660F9B007E6DDF /* AppDelegate.swift */; };
+		280BCF9D1F660F9B007E6DDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280BCF9C1F660F9B007E6DDF /* ViewController.swift */; };
+		280BCFA01F660F9B007E6DDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280BCF9E1F660F9B007E6DDF /* Main.storyboard */; };
+		280BCFA31F660F9B007E6DDF /* GraphQLSandbox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 280BCFA11F660F9B007E6DDF /* GraphQLSandbox.xcdatamodeld */; };
+		280BCFA51F660F9B007E6DDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280BCFA41F660F9B007E6DDF /* Assets.xcassets */; };
+		280BCFA81F660F9B007E6DDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280BCFA61F660F9B007E6DDF /* LaunchScreen.storyboard */; };
+		280BCFB31F660F9B007E6DDF /* GraphQLSandboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280BCFB21F660F9B007E6DDF /* GraphQLSandboxTests.swift */; };
+		280BCFBE1F660F9B007E6DDF /* GraphQLSandboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280BCFBD1F660F9B007E6DDF /* GraphQLSandboxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		280BCFAF1F660F9B007E6DDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 280BCF8F1F660F9B007E6DDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 280BCF961F660F9B007E6DDF;
+			remoteInfo = GraphQLSandbox;
+		};
+		280BCFBA1F660F9B007E6DDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 280BCF8F1F660F9B007E6DDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 280BCF961F660F9B007E6DDF;
+			remoteInfo = GraphQLSandbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		280BCF971F660F9B007E6DDF /* GraphQLSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphQLSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		280BCF9A1F660F9B007E6DDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		280BCF9C1F660F9B007E6DDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		280BCF9F1F660F9B007E6DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		280BCFA21F660F9B007E6DDF /* GraphQLSandbox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GraphQLSandbox.xcdatamodel; sourceTree = "<group>"; };
+		280BCFA41F660F9B007E6DDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		280BCFA71F660F9B007E6DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		280BCFA91F660F9B007E6DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280BCFAE1F660F9B007E6DDF /* GraphQLSandboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphQLSandboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		280BCFB21F660F9B007E6DDF /* GraphQLSandboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLSandboxTests.swift; sourceTree = "<group>"; };
+		280BCFB41F660F9B007E6DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280BCFB91F660F9B007E6DDF /* GraphQLSandboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphQLSandboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		280BCFBD1F660F9B007E6DDF /* GraphQLSandboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLSandboxUITests.swift; sourceTree = "<group>"; };
+		280BCFBF1F660F9B007E6DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		280BCF941F660F9B007E6DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280BCFAB1F660F9B007E6DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280BCFB61F660F9B007E6DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		280BCF8E1F660F9B007E6DDF = {
+			isa = PBXGroup;
+			children = (
+				280BCF991F660F9B007E6DDF /* GraphQLSandbox */,
+				280BCFB11F660F9B007E6DDF /* GraphQLSandboxTests */,
+				280BCFBC1F660F9B007E6DDF /* GraphQLSandboxUITests */,
+				280BCF981F660F9B007E6DDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		280BCF981F660F9B007E6DDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				280BCF971F660F9B007E6DDF /* GraphQLSandbox.app */,
+				280BCFAE1F660F9B007E6DDF /* GraphQLSandboxTests.xctest */,
+				280BCFB91F660F9B007E6DDF /* GraphQLSandboxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		280BCF991F660F9B007E6DDF /* GraphQLSandbox */ = {
+			isa = PBXGroup;
+			children = (
+				280BCF9A1F660F9B007E6DDF /* AppDelegate.swift */,
+				280BCF9C1F660F9B007E6DDF /* ViewController.swift */,
+				280BCF9E1F660F9B007E6DDF /* Main.storyboard */,
+				280BCFA41F660F9B007E6DDF /* Assets.xcassets */,
+				280BCFA61F660F9B007E6DDF /* LaunchScreen.storyboard */,
+				280BCFA91F660F9B007E6DDF /* Info.plist */,
+				280BCFA11F660F9B007E6DDF /* GraphQLSandbox.xcdatamodeld */,
+			);
+			path = GraphQLSandbox;
+			sourceTree = "<group>";
+		};
+		280BCFB11F660F9B007E6DDF /* GraphQLSandboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				280BCFB21F660F9B007E6DDF /* GraphQLSandboxTests.swift */,
+				280BCFB41F660F9B007E6DDF /* Info.plist */,
+			);
+			path = GraphQLSandboxTests;
+			sourceTree = "<group>";
+		};
+		280BCFBC1F660F9B007E6DDF /* GraphQLSandboxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				280BCFBD1F660F9B007E6DDF /* GraphQLSandboxUITests.swift */,
+				280BCFBF1F660F9B007E6DDF /* Info.plist */,
+			);
+			path = GraphQLSandboxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		280BCF961F660F9B007E6DDF /* GraphQLSandbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280BCFC21F660F9B007E6DDF /* Build configuration list for PBXNativeTarget "GraphQLSandbox" */;
+			buildPhases = (
+				280BCF931F660F9B007E6DDF /* Sources */,
+				280BCF941F660F9B007E6DDF /* Frameworks */,
+				280BCF951F660F9B007E6DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphQLSandbox;
+			productName = GraphQLSandbox;
+			productReference = 280BCF971F660F9B007E6DDF /* GraphQLSandbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		280BCFAD1F660F9B007E6DDF /* GraphQLSandboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280BCFC51F660F9B007E6DDF /* Build configuration list for PBXNativeTarget "GraphQLSandboxTests" */;
+			buildPhases = (
+				280BCFAA1F660F9B007E6DDF /* Sources */,
+				280BCFAB1F660F9B007E6DDF /* Frameworks */,
+				280BCFAC1F660F9B007E6DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				280BCFB01F660F9B007E6DDF /* PBXTargetDependency */,
+			);
+			name = GraphQLSandboxTests;
+			productName = GraphQLSandboxTests;
+			productReference = 280BCFAE1F660F9B007E6DDF /* GraphQLSandboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		280BCFB81F660F9B007E6DDF /* GraphQLSandboxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280BCFC81F660F9B007E6DDF /* Build configuration list for PBXNativeTarget "GraphQLSandboxUITests" */;
+			buildPhases = (
+				280BCFB51F660F9B007E6DDF /* Sources */,
+				280BCFB61F660F9B007E6DDF /* Frameworks */,
+				280BCFB71F660F9B007E6DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				280BCFBB1F660F9B007E6DDF /* PBXTargetDependency */,
+			);
+			name = GraphQLSandboxUITests;
+			productName = GraphQLSandboxUITests;
+			productReference = 280BCFB91F660F9B007E6DDF /* GraphQLSandboxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		280BCF8F1F660F9B007E6DDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Chelsea Carr";
+				TargetAttributes = {
+					280BCF961F660F9B007E6DDF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					280BCFAD1F660F9B007E6DDF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 280BCF961F660F9B007E6DDF;
+					};
+					280BCFB81F660F9B007E6DDF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 280BCF961F660F9B007E6DDF;
+					};
+				};
+			};
+			buildConfigurationList = 280BCF921F660F9B007E6DDF /* Build configuration list for PBXProject "GraphQLSandbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 280BCF8E1F660F9B007E6DDF;
+			productRefGroup = 280BCF981F660F9B007E6DDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				280BCF961F660F9B007E6DDF /* GraphQLSandbox */,
+				280BCFAD1F660F9B007E6DDF /* GraphQLSandboxTests */,
+				280BCFB81F660F9B007E6DDF /* GraphQLSandboxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		280BCF951F660F9B007E6DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280BCFA81F660F9B007E6DDF /* LaunchScreen.storyboard in Resources */,
+				280BCFA51F660F9B007E6DDF /* Assets.xcassets in Resources */,
+				280BCFA01F660F9B007E6DDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280BCFAC1F660F9B007E6DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280BCFB71F660F9B007E6DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		280BCF931F660F9B007E6DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280BCFA31F660F9B007E6DDF /* GraphQLSandbox.xcdatamodeld in Sources */,
+				280BCF9D1F660F9B007E6DDF /* ViewController.swift in Sources */,
+				280BCF9B1F660F9B007E6DDF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280BCFAA1F660F9B007E6DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280BCFB31F660F9B007E6DDF /* GraphQLSandboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280BCFB51F660F9B007E6DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280BCFBE1F660F9B007E6DDF /* GraphQLSandboxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		280BCFB01F660F9B007E6DDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 280BCF961F660F9B007E6DDF /* GraphQLSandbox */;
+			targetProxy = 280BCFAF1F660F9B007E6DDF /* PBXContainerItemProxy */;
+		};
+		280BCFBB1F660F9B007E6DDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 280BCF961F660F9B007E6DDF /* GraphQLSandbox */;
+			targetProxy = 280BCFBA1F660F9B007E6DDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		280BCF9E1F660F9B007E6DDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280BCF9F1F660F9B007E6DDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		280BCFA61F660F9B007E6DDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280BCFA71F660F9B007E6DDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		280BCFC01F660F9B007E6DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		280BCFC11F660F9B007E6DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		280BCFC31F660F9B007E6DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GraphQLSandbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChelseaCarr.GraphQLSandbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		280BCFC41F660F9B007E6DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GraphQLSandbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChelseaCarr.GraphQLSandbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		280BCFC61F660F9B007E6DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GraphQLSandboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChelseaCarr.GraphQLSandboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphQLSandbox.app/GraphQLSandbox";
+			};
+			name = Debug;
+		};
+		280BCFC71F660F9B007E6DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GraphQLSandboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChelseaCarr.GraphQLSandboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphQLSandbox.app/GraphQLSandbox";
+			};
+			name = Release;
+		};
+		280BCFC91F660F9B007E6DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GraphQLSandboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChelseaCarr.GraphQLSandboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GraphQLSandbox;
+			};
+			name = Debug;
+		};
+		280BCFCA1F660F9B007E6DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GraphQLSandboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChelseaCarr.GraphQLSandboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GraphQLSandbox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		280BCF921F660F9B007E6DDF /* Build configuration list for PBXProject "GraphQLSandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280BCFC01F660F9B007E6DDF /* Debug */,
+				280BCFC11F660F9B007E6DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280BCFC21F660F9B007E6DDF /* Build configuration list for PBXNativeTarget "GraphQLSandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280BCFC31F660F9B007E6DDF /* Debug */,
+				280BCFC41F660F9B007E6DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		280BCFC51F660F9B007E6DDF /* Build configuration list for PBXNativeTarget "GraphQLSandboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280BCFC61F660F9B007E6DDF /* Debug */,
+				280BCFC71F660F9B007E6DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		280BCFC81F660F9B007E6DDF /* Build configuration list for PBXNativeTarget "GraphQLSandboxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280BCFC91F660F9B007E6DDF /* Debug */,
+				280BCFCA1F660F9B007E6DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		280BCFA11F660F9B007E6DDF /* GraphQLSandbox.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				280BCFA21F660F9B007E6DDF /* GraphQLSandbox.xcdatamodel */,
+			);
+			currentVersion = 280BCFA21F660F9B007E6DDF /* GraphQLSandbox.xcdatamodel */;
+			path = GraphQLSandbox.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 280BCF8F1F660F9B007E6DDF /* Project object */;
+}
