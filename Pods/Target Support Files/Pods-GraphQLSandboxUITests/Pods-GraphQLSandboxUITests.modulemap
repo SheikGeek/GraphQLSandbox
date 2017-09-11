@@ -1,0 +1,6 @@
+framework module Pods_GraphQLSandboxUITests {
+  umbrella header "Pods-GraphQLSandboxUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

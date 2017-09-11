@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05C345A0C524D0291B3C1E8E /* Pods_GraphQLSandbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430C6E82EC04405733AD8628 /* Pods_GraphQLSandbox.framework */; };
 		280BCF9B1F660F9B007E6DDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280BCF9A1F660F9B007E6DDF /* AppDelegate.swift */; };
 		280BCF9D1F660F9B007E6DDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280BCF9C1F660F9B007E6DDF /* ViewController.swift */; };
 		280BCFA01F660F9B007E6DDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280BCF9E1F660F9B007E6DDF /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		280BCFA81F660F9B007E6DDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280BCFA61F660F9B007E6DDF /* LaunchScreen.storyboard */; };
 		280BCFB31F660F9B007E6DDF /* GraphQLSandboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280BCFB21F660F9B007E6DDF /* GraphQLSandboxTests.swift */; };
 		280BCFBE1F660F9B007E6DDF /* GraphQLSandboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280BCFBD1F660F9B007E6DDF /* GraphQLSandboxUITests.swift */; };
+		9D752C0B30609EBBEF753DA2 /* Pods_GraphQLSandboxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9056257437E6893CEFF537F /* Pods_GraphQLSandboxUITests.framework */; };
+		C92C56A4E83428059F508E70 /* Pods_GraphQLSandboxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36C90704AFC3C308551C312 /* Pods_GraphQLSandboxTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26C6054CA368B94377C3CD97 /* Pods-GraphQLSandbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLSandbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-GraphQLSandbox/Pods-GraphQLSandbox.release.xcconfig"; sourceTree = "<group>"; };
 		280BCF971F660F9B007E6DDF /* GraphQLSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphQLSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		280BCF9A1F660F9B007E6DDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		280BCF9C1F660F9B007E6DDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		280BCFB91F660F9B007E6DDF /* GraphQLSandboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphQLSandboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		280BCFBD1F660F9B007E6DDF /* GraphQLSandboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLSandboxUITests.swift; sourceTree = "<group>"; };
 		280BCFBF1F660F9B007E6DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3774A1B73197C4EE04705CE3 /* Pods-GraphQLSandboxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLSandboxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GraphQLSandboxTests/Pods-GraphQLSandboxTests.release.xcconfig"; sourceTree = "<group>"; };
+		430C6E82EC04405733AD8628 /* Pods_GraphQLSandbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphQLSandbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1C387B6E6DCD1A4990BEF6 /* Pods-GraphQLSandboxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLSandboxUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GraphQLSandboxUITests/Pods-GraphQLSandboxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		93BF95BFDA152EDD1F6C3680 /* Pods-GraphQLSandboxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLSandboxUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GraphQLSandboxUITests/Pods-GraphQLSandboxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9CA3C983A8254ADD7169EF59 /* Pods-GraphQLSandboxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLSandboxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GraphQLSandboxTests/Pods-GraphQLSandboxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9056257437E6893CEFF537F /* Pods_GraphQLSandboxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphQLSandboxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36C90704AFC3C308551C312 /* Pods_GraphQLSandboxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphQLSandboxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FD0B8757E6FADFB9A53130 /* Pods-GraphQLSandbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLSandbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GraphQLSandbox/Pods-GraphQLSandbox.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05C345A0C524D0291B3C1E8E /* Pods_GraphQLSandbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C92C56A4E83428059F508E70 /* Pods_GraphQLSandboxTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D752C0B30609EBBEF753DA2 /* Pods_GraphQLSandboxUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F1E4A4B802E8A5F10A84A03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4FD0B8757E6FADFB9A53130 /* Pods-GraphQLSandbox.debug.xcconfig */,
+				26C6054CA368B94377C3CD97 /* Pods-GraphQLSandbox.release.xcconfig */,
+				9CA3C983A8254ADD7169EF59 /* Pods-GraphQLSandboxTests.debug.xcconfig */,
+				3774A1B73197C4EE04705CE3 /* Pods-GraphQLSandboxTests.release.xcconfig */,
+				93BF95BFDA152EDD1F6C3680 /* Pods-GraphQLSandboxUITests.debug.xcconfig */,
+				4F1C387B6E6DCD1A4990BEF6 /* Pods-GraphQLSandboxUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		280BCF8E1F660F9B007E6DDF = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				280BCFB11F660F9B007E6DDF /* GraphQLSandboxTests */,
 				280BCFBC1F660F9B007E6DDF /* GraphQLSandboxUITests */,
 				280BCF981F660F9B007E6DDF /* Products */,
+				1F1E4A4B802E8A5F10A84A03 /* Pods */,
+				A4D08D09148731FF62EE6CB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +158,16 @@
 			path = GraphQLSandboxUITests;
 			sourceTree = "<group>";
 		};
+		A4D08D09148731FF62EE6CB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				430C6E82EC04405733AD8628 /* Pods_GraphQLSandbox.framework */,
+				B36C90704AFC3C308551C312 /* Pods_GraphQLSandboxTests.framework */,
+				A9056257437E6893CEFF537F /* Pods_GraphQLSandboxUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 280BCFC21F660F9B007E6DDF /* Build configuration list for PBXNativeTarget "GraphQLSandbox" */;
 			buildPhases = (
+				AC05A493A140520E7AC9B989 /* [CP] Check Pods Manifest.lock */,
 				280BCF931F660F9B007E6DDF /* Sources */,
 				280BCF941F660F9B007E6DDF /* Frameworks */,
 				280BCF951F660F9B007E6DDF /* Resources */,
+				8443C6F1AE2E5FE8EE72423A /* [CP] Embed Pods Frameworks */,
+				B7B567A71114E91414157EEE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 280BCFC51F660F9B007E6DDF /* Build configuration list for PBXNativeTarget "GraphQLSandboxTests" */;
 			buildPhases = (
+				93C2916880091B4BAEA7B461 /* [CP] Check Pods Manifest.lock */,
 				280BCFAA1F660F9B007E6DDF /* Sources */,
 				280BCFAB1F660F9B007E6DDF /* Frameworks */,
 				280BCFAC1F660F9B007E6DDF /* Resources */,
+				098C64C52389BE56A40F3BFB /* [CP] Embed Pods Frameworks */,
+				FFD407047A9F9F941BB1CC75 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 280BCFC81F660F9B007E6DDF /* Build configuration list for PBXNativeTarget "GraphQLSandboxUITests" */;
 			buildPhases = (
+				4B77229EA20020490A753FA6 /* [CP] Check Pods Manifest.lock */,
 				280BCFB51F660F9B007E6DDF /* Sources */,
 				280BCFB61F660F9B007E6DDF /* Frameworks */,
 				280BCFB71F660F9B007E6DDF /* Resources */,
+				F54050D71D96FF50A278B929 /* [CP] Embed Pods Frameworks */,
+				F73B35636B048FB7E94D37CF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		098C64C52389BE56A40F3BFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraphQLSandboxTests/Pods-GraphQLSandboxTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B77229EA20020490A753FA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8443C6F1AE2E5FE8EE72423A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraphQLSandbox/Pods-GraphQLSandbox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93C2916880091B4BAEA7B461 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC05A493A140520E7AC9B989 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7B567A71114E91414157EEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraphQLSandbox/Pods-GraphQLSandbox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F54050D71D96FF50A278B929 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraphQLSandboxUITests/Pods-GraphQLSandboxUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F73B35636B048FB7E94D37CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraphQLSandboxUITests/Pods-GraphQLSandboxUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFD407047A9F9F941BB1CC75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraphQLSandboxTests/Pods-GraphQLSandboxTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		280BCF931F660F9B007E6DDF /* Sources */ = {
@@ -414,6 +601,7 @@
 		};
 		280BCFC31F660F9B007E6DDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4FD0B8757E6FADFB9A53130 /* Pods-GraphQLSandbox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GraphQLSandbox/Info.plist;
@@ -426,6 +614,7 @@
 		};
 		280BCFC41F660F9B007E6DDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26C6054CA368B94377C3CD97 /* Pods-GraphQLSandbox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GraphQLSandbox/Info.plist;
@@ -438,6 +627,7 @@
 		};
 		280BCFC61F660F9B007E6DDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CA3C983A8254ADD7169EF59 /* Pods-GraphQLSandboxTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +642,7 @@
 		};
 		280BCFC71F660F9B007E6DDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3774A1B73197C4EE04705CE3 /* Pods-GraphQLSandboxTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +657,7 @@
 		};
 		280BCFC91F660F9B007E6DDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93BF95BFDA152EDD1F6C3680 /* Pods-GraphQLSandboxUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GraphQLSandboxUITests/Info.plist;
@@ -479,6 +671,7 @@
 		};
 		280BCFCA1F660F9B007E6DDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F1C387B6E6DCD1A4990BEF6 /* Pods-GraphQLSandboxUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GraphQLSandboxUITests/Info.plist;
